@@ -1,9 +1,17 @@
-
 * myfitnesspal
-** grab data from website
+** grab food data from website
    https://www.designbyvh.com/myfitnesspal-export-data/
    only grab nutrition data
    break up by months
+   -- note: paste data into excel, then save as csv for use
 ** parse data to csv
    mfp_parse.py
    outputs [filename]_clean.csv for use
+** grab weight data from website
+   http://www.myfitnesspal.com/reports/results/progress/1/1300
+   grabs last 1300 days (good when run on 2014/07/20)
+   -- need to add more days over time
+   save to an XML file
+** parse to csv
+   mfp_parse_weight.py
+   output: mfp_weight.csv
