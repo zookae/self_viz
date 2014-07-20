@@ -1,0 +1,9 @@
+
+* myfitnesspal
+** grab data from website
+   https://www.designbyvh.com/myfitnesspal-export-data/
+   only grab nutrition data
+   break up by months
+** parse data to csv
+   mfp_parse.py
+   outputs [filename]_clean.csv for use
